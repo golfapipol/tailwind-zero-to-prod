@@ -2,6 +2,13 @@
     color: red;
 }
 
+
+/* base layer is css reset  */
+/* margin font size across browser */
 @tailwind base;
+
+/* container, max width container  */
 @tailwind components;
+
+/* shadow grid col pt (padding top) */
 @tailwind utilities;
