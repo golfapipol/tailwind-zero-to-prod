@@ -1,0 +1,26 @@
+{
+  "name": "tailwind-zero-to-prod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/golfapipol/tailwind-zero-to-prod.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/golfapipol/tailwind-zero-to-prod/issues"
+  },
+  "homepage": "https://github.com/golfapipol/tailwind-zero-to-prod#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss": "^8.2.15",
+    "tailwindcss": "^2.1.2",
+    "vite": "^2.3.2"
+  }
+}
