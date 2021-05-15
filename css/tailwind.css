@@ -1,8 +1,3 @@
-.hello {
-    color: blue;
-}
-
-
 /* base layer is css reset  */
 /* margin font size across browser */
 @tailwind base;
