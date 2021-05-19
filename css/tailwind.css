@@ -5,5 +5,11 @@
 /* container, max width container  */
 @tailwind components;
 
+/* custom class will have to before @tailwind utilities, if not it will not override class on element */
+.btn{
+    @apply px-4 py-2 inline-block rounded-lg shadow-lg bg-indigo-500 text-white uppercase tracking-wide text-sm sm:text-base hover:bg-red-200 hover:-translate-y-0.5 focus:outline-none focus:ring focus:ring-offset-2 focus:ring-indigo-500 focus:ring-opacity-50 active:bg-indigo-900;
+}
+
 /* shadow grid col pt (padding top) */
 @tailwind utilities;
+
