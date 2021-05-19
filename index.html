@@ -8,22 +8,28 @@
     <link href="/css/tailwind.css" rel="stylesheet">
 </head>
 <!-- bg-gray-50,100-900 -->
-<body class="bg-gray-500 sm:bg-yellow-400 md:bg-green-500 lg:bg-red-500 ">
-    <!-- px for horizontal -->
-    <!-- py for vertical -->
-    <div class="px-8 py-12 max-w-md mx-auto">
-        <img class="h-10" src="/img/logo.svg" alt="workcation" >
-        <img class="mt-6 rounded-lg shadow-lg sm:mt-8 sm:h-32 sm:w-full sm:object-cover object-center lg:hidden" src="/img/beach-work.jpeg">
-        <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl">you can work from anywhere. <span class="text-indigo-700">Take advantage of it</span> </h1>
-        <p class="mt-2 text-gray-600">paragrams</p>
-        <div class="mt-4 sm:mt-6">
-            <a href="#" class="px-4 py-2 inline-block rounded-lg shadow-lg bg-indigo-500 text-white uppercase tracking-wide text-sm sm:text-base">
-                book your escape
-            </a> 
+<body class="bg-gray-500 sm:bg-yellow-400 md:bg-green-500 lg:bg-red-500 lg:max-w-full">
+    <div class="grid lg:grid-cols-2 bg-gray-100">
+        <!-- px for horizontal -->
+        <!-- py for vertical -->
+        <div class="px-8 py-12 max-w-md mx-auto">
+            <img class="h-10" src="/img/logo.svg" alt="workcation" >
+            <img class="mt-6 rounded-lg shadow-lg sm:mt-8 sm:h-32 sm:w-full sm:object-cover object-center lg:hidden" src="/img/beach-work.jpeg">
+            <h1 class="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl">
+                you can work from anywhere. 
+                <br class="hidden lg:inline">
+                <span class="text-indigo-700">Take advantage of it</span> 
+            </h1>
+            <p class="mt-2 text-gray-600">paragrams</p>
+            <div class="mt-4 sm:mt-6">
+                <a href="#" class="px-4 py-2 inline-block rounded-lg shadow-lg bg-indigo-500 text-white uppercase tracking-wide text-sm sm:text-base">
+                    book your escape
+                </a> 
+            </div>
         </div>
-    </div>
-    <div>
-        <img class="hidden lg:block" src="/img/beach-work.jpeg">
+        <div class="hidden relative lg:block">
+            <img class="absolute inset-0 w-full h-full object-center" src="/img/beach-work.jpeg">
+        </div>
     </div>
 </body>
 </html>
