@@ -1,4 +1,6 @@
 import React from 'react'
+import destination from './data/destination'
+import DestinationCard from './components/DestinationCard'
 
 export default function App() {
     return (
@@ -35,20 +37,10 @@ export default function App() {
                     A selection of great work-friendly cities with lots to see and explore.
                 </p>
                 <div className="mt-6 grid gap-6 lg:grid-cols-2 xl:grid-cols-3">
-                    <div className="flex items-center rounded-lg bg-white shadow-lg overflow-hidden">
-                        <img src="/img/toronto.jpg" alt="" className="h-32 w-32 flex-shrink-0" />
-                        <div className="px-6 py-4">
-                            <h3 className="text-lg font-semibold text-gray-800">
-                                Toronto
-                            </h3>
-                            <p className="text-gray-600">$120 / night average</p>
-                            <div className="mt-4">
-                                <a href="#" className="text-indigo-500 hover:text-indigo-400 font-semibold text-sm">
-                                    Explore 76 properties
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    {destination.map((des) => (
+                        <DestinationCard destination={des} key={des.city} />
+                    ))}
+                    
                 </div>
             </div>
         </div>

@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/golfapipol/tailwind-zero-to-prod#readme",
   "devDependencies": {
+    "@vitejs/plugin-react-refresh": "^1.3.3",
     "autoprefixer": "^10.2.5",
     "postcss": "^8.2.15",
     "tailwindcss": "^2.1.2",
