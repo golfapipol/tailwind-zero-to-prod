@@ -9,7 +9,7 @@ export default function App() {
                 <div className="px-8 py-12 max-w-md sm:max-w-xl lg:px-12 lg:py-24 lg:max-w-full xl:mr-0 2xl:col-span-2">
                     <div className="xl:max-w-xl">
                         <img src="/img/logo.svg" alt="Workcation" className="h-10" />
-                        <img src="/img/bench-work.jpg" alt="" className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" />
+                        <img src="/img/beach-work.jpg" alt="" className="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center lg:hidden" />
                         <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 sm:text-4xl lg:text-3xl">
                             You can work from anywhere
                             <br className="hidden lg:inline" />
